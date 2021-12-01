@@ -1,0 +1,84 @@
+html, body {
+            height: 100%;
+            background: #808080/*rgb(131,72,208)*/;
+            background: linear-gradient(135deg, rgba(131,72,208,1) 0%, rgba(57,122,218,1) 50%, rgba(0,212,255,1) 100%);
+            margin: 0px;
+            overflow-x: hidden;
+            color: #818181;
+
+        }
+
+        .content-background {
+            background-color: #FFFAFA;
+            border-radius: 7px; 
+            min-height: 85vh;
+            max-height: 85vh; 
+            margin-top: 1%;
+            overflow-y: scroll;
+            padding: 15px;
+        }
+        .content-background::-webkit-scrollbar {
+            display: none;
+        }
+
+        .overflow-y {
+          overflow-y: scroll;
+        }
+
+        .overflow-y-noscroll {
+          overflow-y: scroll;
+        }
+
+        .overflow-y-noscroll::-webkit-scrollbar {
+            display: none;
+        }
+        /* The side navigation menu */
+        .sidenav {
+          height: 100%; /* 100% Full-height */
+          width: 250px; /* 0 width - change this with JavaScript */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Stay on top */
+          top: 0; /* Stay at the top */
+          left: 0;
+          background-color: #FFFAFA; /* Black*/
+          overflow-x: hidden; /* Disable horizontal scroll */
+          padding-top: 60px; /* Place content 60px from the top */
+          transition: 0.5s;  /*0.5 second transition effect to slide in the sidenav */
+          border-radius: 0px 7px 7px 0px;
+        }
+        
+        /* The navigation menu links */
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        tr:nth-child(even) {background: #dee2e6}
+        tr:nth-child(1){background: #4f5559}
+
+        .card {
+          transition: .3s;
+        }
